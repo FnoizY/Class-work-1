@@ -1,0 +1,116 @@
+/* TRBL Top righ bottom left for margin */
+body{
+    font-family: sans-serif;
+}
+nav lu,a{
+    text-decoration: none;
+    color: #ff4b01;
+    display: inline;
+    margin: 4px ,40px
+}
+lu:first-child{
+    text-decoration: underline;
+}
+a:hover{
+    color: #F2F2F2;
+    cursor: pointer;
+}
+:is(h1, h2, h3, h4, h5, h6)
+{
+    text-transform: capitalize;
+    color: white;
+}
+p{
+    color: black;
+}
+
+h2{
+    background-color:#879499 ;
+    font-family: sans-serif;
+    border-bottom:1px solid #3e4749;
+
+}
+h2+p:first-letter {
+    font-size:x-large;
+  }
+
+
+header{
+    background-color:#3E4749;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+article{
+    font-size: larger;
+    background-color: #3e4749;
+}
+section{
+    /* font-size: large; */
+    background-color:#879499;
+
+    
+}
+em{
+    color: #faa000;
+}
+#the_most_important{
+     font-weight: bold;
+    text-transform:uppercase;
+    background-color:#F0F0F2;
+}
+::selection{
+    background-color: #ff4b01;
+}
+
+input{
+    height: 20px;
+    color: 3px solid #879499;
+    box-sizing: border-box;
+}
+
+input[name=Message]{
+    height: 50px;  
+}
+
+/* Table css */
+tbody tr:hover{
+    background-color: #faa000;
+}
+
+thead{
+    text-transform: uppercase;
+}
+tbody tr :nth-child(odd){
+    background-color: #879499 ;
+}
+/* End Table */
+
+footer{
+    background-color:#879499;
+    text-align: center;
+}
+
+
+/* first child for the first in the list and a hover only when hovering */
+/* nav li:first-child a:hover{ 
+    color: aliceblue;
+} */
+
+/* .phone{
+    color: aqua;
+} */
+
+/* or tr but will include header */
+
+/* thead{
+    background-color: #705d56;
+}
+tbody:nth-child(odd){
+    background-color: #e9d6ec;
+}
+nav a:hover{
+    color:cyan;
+} */
+
+
