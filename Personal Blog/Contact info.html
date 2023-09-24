@@ -7,11 +7,12 @@
     <body>
         <Header>
             <nav>
-                <ol>
-                    <lu><a href="Main Page.html">Main Page</a></lu>
-                    <lu>Contact</lu>
+                <img class="Dropdown" src="Assets/hamburger jpg.jpg" alt=""width='24px'>
+                <ul class="nav-content">
+                    <li><a href="Main Page.html">Main Page</a></li>
+                    <li><a href="Contact info.html">Contact</a></li>
     
-                </ol>
+                </ul>
             </nav>  
 
 
@@ -24,10 +25,10 @@
                 <p><b>Name:</b> Fares Bahamdan</p>
                 <p><b>Location:</b> Saudi Arabia, Dhahran</p>
                 <p style="display: inline;"><b>Email:</b></p>
-                <a href="mailto:Fares.Bahamdan@gmail.com">Fares.Bahamdan@gmail.com</a>
+                <a class="Email" href="mailto:Fares.Bahamdan@gmail.com">Fares.Bahamdan@gmail.com</a>
                 <div>
                     <p style="display: inline;"><b>Phone Number:</b></p>
-                    <a href="tel:+966538500988">+966538500988</a>
+                    <a class="Phone-number" href="tel:+966538500988">+966538500988</a>
                 </div>
                 <p><strong>Office Number:</strong> 2005</p>
             </section>
@@ -35,11 +36,13 @@
             <section>
                 <h2>Send Email:</h2>
                 <form action="">
-                    <label for="Personal Email"> <b>Write your Email: </b></label>
-                    <input type="email" id="Email text">
+                    <input type="Name" name="Contact-Name" placeholder="Name">
+                    <input type="Email" name="Email-text" placeholder="Email">
                     <div>
-                        <label for="Message"><b>Write your message: </b></label>
-                        <input type="text" name="Message">
+                        <input type="Title" name="Title" placeholder="Title">
+                    </div>
+                    <div>
+                        <input type="Message" name="Message" placeholder="Message">
                     </div>
                     <input type="submit" value="Send Email">
                 </form>
