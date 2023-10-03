@@ -1,10 +1,16 @@
+<!-- Name: Fares Bahamdan 
+     ID: 201943050-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
   <title>Main Page</title>
+  <meta name="viewport" content="width=device-width">
   <meta name="Fares Bahamdan", content="Portfolio">
   <!-- <link rel="stylesheet" href="CSS/dark_theme.css"> -->
-  <link rel="stylesheet" href="CSS/Mood_Board.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" media="screen and (max-width: 769px)" href="CSS/Mood_Board.css">
+  <link rel="stylesheet" media="screen and (min-width: 769px)" href="CSS/Desktop.css">
   </head>
   <body>
 
@@ -12,11 +18,12 @@
     <nav>
       <img class="Dropdown" src="Assets/hamburger jpg.jpg" alt=""width='24px'>
         <ul class="nav-content">
-          <li><a href="Main Page.html">Home</a></li>
-          <li><a href="Contact info.html">Contact</a></li>
-          <li><a href="Main Page-AR.html">عربي</a></li>
+          <li class="nav1"><a href="Main Page.html">Home</a></li>
+          <li class="nav2"><a href="Contact info.html">Contact</a></li>
+          <li class="nav3"><a href="Main Page-AR.html">عربي</a></li>
         </ul>
     </nav>
+    
     <section>
       <h1>Fares Bahamdan a <em>software engineer</em></h1>
       <h3 class="University">This is my Portfolio as a student at King Fahd University of Petroleum and Minerals</h3>
@@ -25,13 +32,12 @@
   </header>
 
     <main>
-        <figure>
-          <img class = Mypic src="Assets/Fares-removebg.png" alt="A picture of me" width="200">
-          <!-- <figcaption>A picture Of Fares Bahamdan</figcaption> -->
-        </figure>
-
-      <section class="summery">
+        <div>
         <h2>A summery about me</h2>
+        </div>
+
+        <section class="summery">
+
         <p>
           I am a <em id="the_most_important">versatile</em> web designer due to my
            <em>extensive</em> history in graphic and web design. my
@@ -41,6 +47,11 @@
                and a master's in web design, my expertise can help
                 customers modernize with websites and appeal to expanding customer populations.
         </p>
+        
+        <figure>
+          <img class = Mypic src="Assets/Fares-removebg.png" alt="A picture of me" width="200">
+          <!-- <figcaption>A picture Of Fares Bahamdan</figcaption> -->
+        </figure>
       </section>
 
       <h2>My hobbies</h2>
@@ -75,28 +86,35 @@
           </tbody>
         </table>
       
-      <article>
         <h2>My experiences</h2>
-          <section>
+      <article class="grid-container">
+          <section class="item1">
             <h3>Project 1</h3>
             <p>Build an Appointment Scheduler</p>
             <button class="The button">hover</button>
           </section>
-          <section>
+          <section class="item2">
             <h3>Project 2</h3>
             <p>Python Mining Twitter Data with Python</p>
           </section>
-          <section>
+          <section class="item3">
             <h3>Project 3</h3>
             <p>Python Build a Reddit Bot</p>
+          </section>
+          <section class="item4">
+            <h3>Project 4</h3>
+            <p>Built a Tic Tac Toe game using Javascript</p>
+            <a href="tic tac toe.html">Tic Tac Toe Game</a>
           </section>
       </article>
     </main>
 
     <footer>
-      <a href="https://github.com/FnoizY">My Github page</a>
-      <a href="Advanced Table.html"> Advanced Table</a>
-      <a href="Hire me.html">Hire me</a>
+      <a href="https://github.com/FnoizY"><img src="Assets/Github-logo.svg" alt=""></a>
+      <a href="Advanced Table.html"><img src="Assets/table-icon.png" alt=""></a>
+      <a href="Hire me.html"><img src="Assets/job-send-icon.png" alt=""></a>
     </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
+
   </body>
 </html>

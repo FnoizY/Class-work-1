@@ -1,19 +1,24 @@
+<!-- Name: Fares Bahamdan 
+     ID: 201943050-->
 <!DOCTYPE html>
 <html lang="ar", dir="rtl">
   <head>
   <title>الصفحه الرئيسيه</title>
   <meta name="Fares Bahamdan", content="Portfolio">
+  <meta name="viewport" content="width=device-width">
   <!-- <link rel="stylesheet" href="CSS/dark_theme.css"> -->
-  <link rel="stylesheet" href="CSS/Mood_Board.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" media="screen and (max-width: 769px)" href="CSS/Mood_Board.css">
+  <link rel="stylesheet" media="screen and (min-width: 769px)" href="CSS/Desktop.css">
   </head>
 
   <header>
     <nav>
       <img class="Dropdown" src="Assets/hamburger jpg.jpg" alt=""width='24px'>
         <ul class="nav-content">
-          <li><a href="Main Page.html">الصفحه الرئسيه</a></li>
-          <li><a href="Contact info.html">للتواصل</a></li>
-          <li><a href="Main Page.html">ENG</a></li>
+          <li class="nav1"><a href="Main Page-AR.html">الصفحه الرئسيه</a></li>
+          <li class="nav2"><a href="Contact info.html">للتواصل</a></li>
+          <li class="nav3"><a href="Main Page.html">ENG</a></li>
         </ul>
     </nav>
     <section>
@@ -26,13 +31,11 @@
   <body>
 
     <main>
-        <figure>
-          <img class = Mypic src="Assets/Fares-removebg.png" alt="A picture of me" width="200">
-          <!-- <figcaption>A picture Of Fares Bahamdan</figcaption> -->
-        </figure>
 
-      <section class="summery">
+      <div>
         <h2>معلومات عني</h2>
+      </div>
+      <section class="summery">
         <p>
           أنا مصمم ويب متعدد الاستخدامات نظرًا <em class="the_most_important">لخبرتي</em>
             تاريخ واسع في تصميم الجرافيك والويب. لي
@@ -41,6 +44,13 @@
                عضو في الفريق. مع ثماني سنوات من الخبرة
                 والماجستير في تصميم الويب، خبرتي يمكن أن تساعد
                  يقوم العملاء بالتحديث من خلال مواقع الويب ويجذبون أعدادًا متزايدة من العملاء.
+        </p>
+
+        <figure>
+          <img class = Mypic src="Assets/Fares-removebg.png" alt="A picture of me">
+          <!-- <figcaption>A picture Of Fares Bahamdan</figcaption> -->
+        </figure>
+
       </section>
 
       <h2>هواياتي</h2>
@@ -74,28 +84,35 @@
             </tr>
           </tbody>
         </table>
-      
-      <article>
-        <h2>خبراتي</h2>
-          <section>
-            <h3>المشروع ١</h3>
+
+      <h2>خبراتي</h2>
+      <article class="grid-container">
+          <section class="item1">
+            <h3>المشرو ١</h3>
             <p>بناء جدولة المواعيد</p>
+            <button class="The button">زر</button>
           </section>
-          <section>
+          <section class="item2">
             <h3>المشروع ٢</h3>
             <p>بايثون التعدين بيانات تويتر</p>
           </section>
-          <section>
+          <section class="item3">
             <h3>المشروع ٣</h3>
             <p>بني بوت لريديت باستخدام بايثون</p>
+          </section>
+          <section class="item4">
+            <h3>المشروع ٤</h3>
+            <p>بناء بعبة xo بأستخدام جافا سكربت</p>
+            <a href="tic tac toe.html">لعبة XO</a>
           </section>
       </article>
     </main>
 
     <footer>
-      <a href="https://github.com/FnoizY">حساب القت هب</a>
-      <a href="Advanced Table.html"> جدول متطور</a>
-      <a href="Hire me.html">للتواصل الوظيفي</a>
+      <a href="https://github.com/FnoizY"><img src="Assets/Github-logo.svg" alt=""></a>
+      <a href="Advanced Table.html"><img src="Assets/table-icon.png" alt=""></a>
+      <a href="Hire me.html"><img src="Assets/job-send-icon.png" alt=""></a>
     </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
   </body>
 </html>

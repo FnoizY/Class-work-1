@@ -1,0 +1,253 @@
+/*  Name: Fares Bahamdan 
+     ID: 201943050 */
+     
+/* TRBL Top righ bottom left for margin and padding*/
+@import url('https://fonts.googleapis.com/css?family=Fira');
+
+body{
+    font-family: Fira Code;
+    background-color: #282C33;
+
+}
+#Loading-gif{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.summery{
+    display: grid;
+    grid-row-end: auto;
+    grid-template-columns:700px auto;
+    gap: 10px;
+    padding: 10px;
+    grid-auto-flow: dense
+}
+.Mypic{
+    float: right;
+    /* float: inline-end; */
+    width: 250px;
+    height: 250px;
+    /* margin-right: auto; */
+}
+/* Excersice 3 smooth transmition */
+button{
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #C778DD;
+}
+nav{
+    margin: 0px 171px 62px 0px;
+
+}
+/* End Excersice 3 smooth transmition */
+
+/* burgermenue */
+.Dropdown{
+    cursor: pointer;
+}
+.nav1{
+    display: inline;
+    opacity: 0;
+    transition-delay: 0.2s;
+    list-style-type: none;
+}
+.nav2{
+    display: inline;
+    opacity: 0;
+    transition-delay: 0.4s;
+    list-style-type: none;
+}
+.nav3{
+    display: inline;
+    opacity: 0;
+    transition-delay: 0.6s;
+    list-style-type: none;
+}
+.nav-content a:hover{
+    color: #C778DD;
+}
+
+/* revelse the nav bar */
+/* nav:hover .nav-content {
+    display: inline;
+} */
+nav:hover .nav1{
+    display: inline;
+    opacity: 1;
+}
+nav:hover .nav2{
+    display: inline;
+    opacity: 1;
+}
+nav:hover .nav3{
+    display: inline;
+    opacity: 1;
+}
+/* end of burgermenue */
+
+a {
+    text-decoration: none; 
+    color: #ffffff;
+    display: inline;
+    padding: 0px 2px;
+
+} 
+ li:nth-child(1){
+    text-decoration: underline;
+    text-decoration-color: #C778DD;
+
+}
+a:hover{
+    color: #C778DD; 
+     cursor: pointer;
+     padding: 0px 2px;
+}  
+ li::before{
+    color: #C778DD;
+    content: '#';
+}
+
+:is(h1, h2, h3, h4, h5, h6)
+{
+    text-transform: capitalize;
+    color: var(--white, #ffffff);
+
+}
+h1{
+    margin: 34px 16px 25px 16px;
+    font-size: xx-large;
+}
+p{
+    color: var(--gray, #ABB2BF);
+}
+
+h2{
+    /* height: 100px; */
+    /* width: 250px; */
+    position: relative;
+    border-bottom:1px solid #C778DD;
+}
+h2+p:first-letter {
+    font-size:x-large;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+header{
+    font-family: fire code;
+    border-radius: 10px;
+    margin: 16px 16px 8px 16px;
+}
+
+.University{
+    color: #ABB2BF;
+    font-size: small;
+    margin: 25px 16px 24px 16px;
+}
+article{
+    font-size: larger;
+    border-radius: 10px;
+}
+section{
+
+    border-radius: 10px;
+}
+em{
+    color: #C778DD;
+}
+#the_most_important{
+     font-weight: bold;
+    text-transform:uppercase;
+    background-color:yellow;
+}
+::selection{
+    background-color: #C778DD;
+}
+
+input{
+    height: 20px;
+    color: 3px solid #ABB2BF;
+    box-sizing: border-box;
+}
+input{
+    background-color: #282C33;
+    color: #ABB2BF;
+    border: 1px solid #ABB2BF;
+}
+
+/* input[name=Message]{
+    width: 505px;
+    height: 119px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+}
+input[name=Contact-Name]{
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+input[name=Title]{
+    width: 505px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+}
+input[name=Email-text]{
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+input[type="submit"]{
+    color: #ffffff;
+} */
+
+
+/* Table css */
+table, th, td {
+    border: 1px solid #C778DD;
+    padding: 8px;
+    text-align: left;
+    color: #ABB2BF;
+}
+
+tbody tr:hover{
+    background-color: #ffffff;
+}
+
+thead{
+    text-transform: uppercase;
+}
+tbody tr :nth-child(odd){
+    background-color: #C778DD ;
+}
+/* End Table */
+
+footer{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ABB2BF;
+    opacity: 1;
+}
+
+
+
+/* first child for the first in the list and a hover only when hovering */
+/* nav li:first-child a:hover{ */
+
+

@@ -1,16 +1,24 @@
+/*  Name: Fares Bahamdan 
+     ID: 201943050 */
+     
 /* TRBL Top righ bottom left for margin and padding*/
 @import url('https://fonts.googleapis.com/css?family=Fira');
 
 body{
     font-family: Fira Code;
     background-color: #282C33;
-
 }
 #Loading-gif{
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.Mypic{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
 }
 /* Excersice 3 smooth transmition */
 button{
@@ -36,6 +44,7 @@ button:hover{
 /* revelse the nav bar */
 nav:hover .nav-content {
     display: inline;
+    
 }
 
 a {
@@ -59,12 +68,7 @@ a:hover{
     color: #C778DD;
     content: '#';
 }
-figure{
-    position: relative;
-    width: 307.915px;
-    height: 260.077px;
-    flex-shrink: 0;
-}
+
 :is(h1, h2, h3, h4, h5, h6)
 {
     text-transform: capitalize;
@@ -80,7 +84,7 @@ p{
 }
 
 h2{
-    border-bottom:1px solid #C778DD;
+    border-bottom: 1px solid #C778DD;
 
 }
 h2+p:first-letter {

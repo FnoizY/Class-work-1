@@ -1,16 +1,22 @@
+<!-- Name: Fares Bahamdan 
+     ID: 201943050-->
+     
 <!DOCTYPE html>
 <html lang="en">
     <Head>
         <title>Contact info</title>
-        <link rel="stylesheet" href="CSS/Mood_Board.css">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" media="screen and (max-width: 769px)" href="CSS/Mood_Board.css">
+        <link rel="stylesheet" media="screen and (min-width: 769px)" href="CSS/Desktop.css">  
     </Head>
     <body>
         <Header>
             <nav>
                 <img class="Dropdown" src="Assets/hamburger jpg.jpg" alt=""width='24px'>
                 <ul class="nav-content">
-                    <li><a href="Main Page.html">Main Page</a></li>
-                    <li><a href="Contact info.html">Contact</a></li>
+                    <li class="nav1"><a href="Main Page.html">Main Page</a></li>
+                    <li class="nav2"><a href="Contact info.html">Contact</a></li>
     
                 </ul>
             </nav>  
@@ -36,13 +42,14 @@
             <section>
                 <h2>Send Email:</h2>
                 <form action="">
-                    <input type="Name" name="Contact-Name" placeholder="Name">
-                    <input type="Email" name="Email-text" placeholder="Email">
-                    <div>
-                        <input type="Title" name="Title" placeholder="Title">
+                    <div class="mb-2 col-3">
+                        <input type="Email" class="form-control bg-transparent text-white" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
-                    <div>
-                        <input type="Message" name="Message" placeholder="Message">
+                    <div class="mb-2 col-2 text-white">
+                        <input type="Title" class="form-control bg-transparent text-white" id="exampleFormControlInput1" placeholder="Title">
+                    </div>
+                    <div class="mb-2 bg-transparent">
+                        <textarea class="form-control bg-transparent text-white" id="exampleFormControlTextarea1" rows="4"></textarea>
                     </div>
                     <input type="submit" value="Send Email">
                 </form>
