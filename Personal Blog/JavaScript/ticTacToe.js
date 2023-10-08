@@ -18,6 +18,43 @@ function cellClicked(event) {
     }
 }
 
+document.addEventListener("keydown", (event) => {
+    event.preventDefault()
+    if (event.code !== "Space"){
+        moveSelected(event.code);
+    }else{
+        cell = document.querySelector(".selectedKey")
+        addLetter(cell)
+        checkWin();
+        checkDraw();
+    }
+    
+})
+
+//kb functions
+    function moveSelected(code) {
+        current = document.querySelector(".selectedKey")
+        next = null
+
+        switch (code) {
+            case "ArrowRight": next = current.nextElementSibling
+                        break;
+            case "ArrowLeft": next = current.previousElementSibling
+                        break;
+            case "ArrowDown": next = current.nextElementSibling.nextElementSibling.nextElementSibling
+                        break;
+            case "ArrowUp": next = current.previousElementSibling.previousElementSibling.previousElementSibling
+                        break;
+            }
+
+            //replace class
+            if (next != null) {
+                current.classList.remove("selectedKey")
+                next.classList.add("selectedKey")
+            }
+
+    }
+
 // Add letter
 function addLetter(cell) {
     cell.innerText = turn;
