@@ -136,7 +136,7 @@ h2+p:first-letter {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     gap: 10px;
     padding: 10px;
 }
