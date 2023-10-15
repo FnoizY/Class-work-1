@@ -41,7 +41,7 @@
 
             <section>
                 <h2>Send Email:</h2>
-                <form action="">
+                <form action="" id="myForm">
                     <div class="mb-2 col-3">
                         <input type="Email" class="form-control bg-transparent text-white" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
@@ -51,14 +51,18 @@
                     <div class="mb-2 bg-transparent">
                         <textarea class="form-control bg-transparent text-white" id="exampleFormControlTextarea1" rows="4"></textarea>
                     </div>
-                    <input type="submit" value="Send Email">
+                    <div>
+                        <p>Write your <b>signature:</b></p>
+                        <canvas id="signature" width="300" height="150"></canvas>
+                    </div>
+                    <input type="submit" value="Send Email" onclick= "saveCanvas()">
                 </form>
             </section>
         </main>
-
         <main-footer></main-footer>
 
         <script src="JavaScript/customComponent.js"></script>
+        <script src="JavaScript/cavas2D.js"></script>
     </body>
 
 
