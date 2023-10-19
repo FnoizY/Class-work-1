@@ -183,34 +183,6 @@ input{
     border: 1px solid #ABB2BF;
 }
 
-/* input[name=Message]{
-    width: 505px;
-    height: 119px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-}
-input[name=Contact-Name]{
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    flex: 1 0 0;
-}
-input[name=Title]{
-    width: 505px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-}
-input[name=Email-text]{
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    flex: 1 0 0;
-}
-input[type="submit"]{
-    color: #ffffff;
-} */
 
 
 /* Table css */
@@ -244,6 +216,7 @@ footer{
     color: #ABB2BF;
     opacity: 1;
 }
+
 
 
 

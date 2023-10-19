@@ -1,3 +1,6 @@
+    // Name: Fares Bahamdan 
+    // ID: 201943050
+    
 class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `    

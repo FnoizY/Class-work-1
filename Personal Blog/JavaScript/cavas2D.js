@@ -1,3 +1,6 @@
+    // Name: Fares Bahamdan 
+    // ID: 201943050
+    
 let isDrawing = false;
 let x = 0;
 let y = 0;

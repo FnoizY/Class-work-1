@@ -1,3 +1,6 @@
+    // Name: Fares Bahamdan 
+    // ID: 201943050
+    
 let camera, scene, renderer;
 
 init();

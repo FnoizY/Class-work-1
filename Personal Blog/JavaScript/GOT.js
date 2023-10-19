@@ -1,3 +1,6 @@
+    // Name: Fares Bahamdan 
+    // ID: 201943050
+    
 async function gameOfThronesQuotes(quoteElement, characterNameElement, characterSlugElement,houseNameElement,houseSlugElement) {
     const res = await fetch("https://api.gameofthronesquotes.xyz/v1/random");
         const data = await res.json();
