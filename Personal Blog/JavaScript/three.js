@@ -43,20 +43,19 @@ function animate() {
 }
 
 let timeout;
-function resetTimer() {
+const resetTimer = () => {
     clearTimeout(timeout);
-    timeout = setTimeout(showScreenSaver, "60000");
-}
+    timeout = setTimeout(showScreenSaver, 60000);
+};
 
-function showScreenSaver() {
+const showScreenSaver = () => {
     document.getElementById('screen-saver').style.display = 'block';
-    window.scrollTo(0,0)
-}
+    window.scrollTo(0, 0);
+};
 
-
-function hideScreenSaver() {
+const hideScreenSaver = () => {
     document.getElementById('screen-saver').style.display = 'none';
-}
+};
 
 document.addEventListener('mousemove', resetTimer);
 document.addEventListener('mousedown', resetTimer);
