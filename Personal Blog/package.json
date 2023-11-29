@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon express.js"
+    "start": "node express.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
