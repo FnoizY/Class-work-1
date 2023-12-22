@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon Personal_Blog/Express/app.js"
+    "start": "node Personal_Blog/Express/app.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
